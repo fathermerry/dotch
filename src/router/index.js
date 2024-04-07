@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import ReceiptView from '../views/ReceiptView.vue'
-import AboutView from '../views/AboutView.vue'
-import HelpView from '../views/HelpView.vue'
+import ExpensesView from '../views/ExpensesView.vue'
+import FriendsView from '../views/FriendsView.vue'
+import GroupsView from '../views/GroupsView.vue'
 import LostView from '../views/LostView.vue'
 
 const router = createRouter({
@@ -13,18 +13,17 @@ const router = createRouter({
       name: 'home',
       component: HomeView
     },{
-      path: '/receipt/:id',
-      name: 'receipt',
-      props: true,
-      component: ReceiptView
+      path: '/expenses',
+      name: 'expenses',
+      component: ExpensesView
     }, {
-      path: '/about',
-      name: 'about',
-      component: AboutView
+      path: '/friends',
+      name: 'friends',
+      component: FriendsView
     }, {
-      path: '/help',
-      name: 'help',
-      component: HelpView
+      path: '/groups',
+      name: 'groups',
+      component: GroupsView
     }, 
     { 
       path: '/:pathMatch(.*)',
