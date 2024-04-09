@@ -1,10 +1,6 @@
-<script setup>
-import EmptyComponent from '../components/EmptyComponent.vue'
-</script>
-
 <template>
   <div class="frame">
-    <EmptyComponent />
+    <a href="/expenses">Login</a>
   </div>
 </template>
 
