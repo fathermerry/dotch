@@ -1,5 +1,5 @@
 <template>
-  <div class="frame">
+  <div>
     <nav>
       <img alt="Dotch logo" src="../assets/logo.svg" />
     </nav>

@@ -1,5 +1,5 @@
 <template>
-  <div class="frame">
+  <div>
     <a href="/expenses">Login</a>
   </div>
 </template>

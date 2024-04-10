@@ -3,7 +3,7 @@ import AppNav from '../components/AppNav.vue'
 </script>
 
 <template>
-  <div class="frame">
+  <div>
     Groups
   </div>
   <AppNav />
