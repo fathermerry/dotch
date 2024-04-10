@@ -2,7 +2,7 @@
 import AppNav from '../components/AppNav.vue'
 </script>
 <template>
-  <div>
+  <div class="text-white">
     Expenses
   </div>
   <AppNav />
