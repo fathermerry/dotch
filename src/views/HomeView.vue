@@ -1,7 +1,7 @@
 <script setup>
 import ButtonLink from '../components/ButtonLink.vue'
 import UserAvatar from '../components/UserAvatar.vue'
-import UserBalance from '../components/UserBalance.vue'
+import WalletBalance from '../modules/WalletBalance.vue'
 import AppNav from '../components/AppNav.vue'
 </script>
 <template>
@@ -9,7 +9,7 @@ import AppNav from '../components/AppNav.vue'
     <UserAvatar />
   </div>
   <div class="px-8 flex flex-col space-y-4">
-    <UserBalance />
+    <WalletBalance />
     <ButtonLink name="new-expense" icon="plus" text="Add expense"></ButtonLink>
   </div>
   <AppNav />
