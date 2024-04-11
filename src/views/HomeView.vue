@@ -10,7 +10,10 @@ import AppNav from '../components/AppNav.vue'
   </div>
   <div class="px-8 flex flex-col space-y-4">
     <WalletBalance />
-    <ButtonLink name="new-expense" icon="plus" text="Add expense"></ButtonLink>
+    <div class="flex space-x-2">
+      <ButtonLink name="settle-expenses" bg-color="turquoise" icon="check" text="Settle"></ButtonLink>
+      <ButtonLink name="new-expense" icon="plus" text="Add expense"></ButtonLink>
+    </div>
   </div>
   <AppNav />
 </template>

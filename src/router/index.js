@@ -5,7 +5,8 @@ import HomeView from '../views/HomeView.vue'
 import FriendsView from '../views/FriendsView.vue'
 import GroupsView from '../views/GroupsView.vue'
 import WalletView from '../views/WalletView.vue'
-import NewExpenseView from '../views/NewExpenseView.vue'
+import NewExpense from '../views/expenses/NewExpense.vue'
+import SettleExpenses from '../views/expenses/SettleExpenses.vue'
 import LostView from '../views/LostView.vue'
 
 const router = createRouter({
@@ -38,7 +39,11 @@ const router = createRouter({
     }, {
       path: '/new-expense',
       name: 'new-expense',
-      component: NewExpenseView
+      component: NewExpense
+    }, {
+      path: '/settle-expenses',
+      name: 'settle-expenses',
+      component: SettleExpenses
     }, 
     { 
       path: '/:pathMatch(.*)',
