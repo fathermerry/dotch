@@ -4,7 +4,7 @@ import AppNav from '../components/AppNav.vue'
 
 <template>
   <div class="text-white">
-    Friends
+    Groups
   </div>
   <AppNav />
 </template>

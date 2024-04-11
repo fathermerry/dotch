@@ -4,7 +4,7 @@ import AppNav from '../components/AppNav.vue'
 
 <template>
   <div class="text-white">
-    Groups
+    Wallet
   </div>
   <AppNav />
 </template>
