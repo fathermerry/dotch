@@ -12,9 +12,9 @@ export default {
       'slate-gray': '#606272',
       'dark-indigo': '#2B2D42',
       'navy-blue': '#191A26',
-      'crimson': '#E53535',
       'marigold': '#F6C165',
-      'turquoise': '#08C4B2'
+      'turquoise': '#08C4B2',
+      'crimson': '#E53535'
     },
   }
 }

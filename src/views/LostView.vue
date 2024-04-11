@@ -22,10 +22,3 @@
     </footer>
   </div>
 </template>
-
-<style scoped>
-  #lost {
-    padding: 24px 36px;
-    text-align: center;
-  }
-</style>

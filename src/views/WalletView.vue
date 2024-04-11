@@ -8,6 +8,3 @@ import AppNav from '../components/AppNav.vue'
   </div>
   <AppNav />
 </template>
-
-<style scoped>
-</style>
