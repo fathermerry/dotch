@@ -1,9 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import GuestView from '../views/GuestView.vue'
 import ProfileView from '../views/ProfileView.vue'
-import ExpensesView from '../views/ExpensesView.vue'
+import HomeView from '../views/HomeView.vue'
 import FriendsView from '../views/FriendsView.vue'
 import GroupsView from '../views/GroupsView.vue'
+import WalletView from '../views/WalletView.vue'
 import LostView from '../views/LostView.vue'
 
 const router = createRouter({
@@ -11,16 +12,16 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView
+      name: 'guest',
+      component: GuestView
     },{
-      path: '/',
+      path: '/profile',
       name: 'profile',
       component: ProfileView
     },{
-      path: '/expenses',
-      name: 'expenses',
-      component: ExpensesView
+      path: '/home',
+      name: 'home',
+      component: HomeView
     }, {
       path: '/friends',
       name: 'friends',
@@ -29,6 +30,10 @@ const router = createRouter({
       path: '/groups',
       name: 'groups',
       component: GroupsView
+    }, {
+      path: '/wallet',
+      name: 'wallet',
+      component: WalletView
     }, 
     { 
       path: '/:pathMatch(.*)',
