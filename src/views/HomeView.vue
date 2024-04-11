@@ -1,5 +1,5 @@
 <script setup>
-import ButtonDiv from '../components/ButtonDiv.vue'
+import ButtonLink from '../components/ButtonLink.vue'
 import UserAvatar from '../components/UserAvatar.vue'
 import UserBalance from '../components/UserBalance.vue'
 import AppNav from '../components/AppNav.vue'
@@ -10,9 +10,7 @@ import AppNav from '../components/AppNav.vue'
   </div>
   <div class="px-8 flex flex-col space-y-4">
     <UserBalance />
-    <RouterLink :to="{ name: 'new-expense' }">
-      <ButtonDiv icon="plus" text="Add expense"></ButtonDiv>
-    </RouterLink>
+    <ButtonLink name="new-expense" icon="plus" text="Add expense"></ButtonLink>
   </div>
   <AppNav />
 </template>
